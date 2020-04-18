@@ -1,0 +1,29 @@
+Central Processeing Unit: Part of the computer that actually runs programs - most important component of a computer
+
+Main Memory: where a computer stores a program while the program is running
+
+Random Access Memory: Volatile, used for temporary storage, only while the program is running, when a computer is turned off the contents of RAM are erased
+
+Read Only Memory: Nonvolatile, does not lose its contents when a computer is turned off, typically used to store programs that are important for system operations
+
+Secondary Storage: Memory that can hold data for long periods of time, even when ther is no power -- programs typically stored in seconday memory are loaded into main memory as needed
+
+Input Devices: Components that collects that data and sends it to the computer -- common input devices include keyboard, mouse, touchscreen, scanner, microphone
+
+Output Devices: Format and present data that is produced for people or other devices -- common output devices include video displays, printers, disk drives, CD recorders
+
+Fetch: Read the programming instructions from CPU, this is the first step of processing machine language instructions
+
+Decode: Machine language instruction is a binary number that reprsents a command that tells the CPU to perform an operations -- CPU decodes instructions
+
+Execute: Perform the operation that has been fetched and decoded
+
+Assembler: Used to translate an assembly language program to a machine language program
+
+Statements: Indivdual instructions that you use to write a hight level programming language
+
+Complier: Program that translates a high level language program into a separate machine language program
+
+Source Code: Statements programmers write in high-level languages
+
+Syntax Error: A mistake such as a misspelled keyword, missing punctuation, or incorrect use of an operator

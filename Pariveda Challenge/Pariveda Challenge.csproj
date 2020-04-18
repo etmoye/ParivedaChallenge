@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01FF3FB4-F8C7-4B8A-A7F7-6AAB8C262D9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pariveda_Challenge</RootNamespace>
+    <AssemblyName>Pariveda Challenge</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acuity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acuity.Designer.cs">
+      <DependentUpon>Acuity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arrays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arrays.Designer.cs">
+      <DependentUpon>Arrays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CGI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CGI.Designer.cs">
+      <DependentUpon>CGI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrimsonMailLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrimsonMailLogin.Designer.cs">
+      <DependentUpon>CrimsonMailLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Crowe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Crowe.Designer.cs">
+      <DependentUpon>Crowe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email.Designer.cs">
+      <DependentUpon>Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterivewPrepTech.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterivewPrepTech.Designer.cs">
+      <DependentUpon>InterivewPrepTech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterviewPrepBehav.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterviewPrepBehav.Designer.cs">
+      <DependentUpon>InterviewPrepBehav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroCompProg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroCompProg.Designer.cs">
+      <DependentUpon>IntroCompProg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroQuiz.Designer.cs">
+      <DependentUpon>IntroQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroTerms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroTerms.Designer.cs">
+      <DependentUpon>IntroTerms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPOFlowchart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPOFlowchart.Designer.cs">
+      <DependentUpon>IPOFlowchart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPOFlowchartQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPOFlowchartQuiz.Designer.cs">
+      <DependentUpon>IPOFlowchartQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPOFlowchartVisuals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPOFlowchartVisuals.Designer.cs">
+      <DependentUpon>IPOFlowchartVisuals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodsQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MethodsQuiz.Designer.cs">
+      <DependentUpon>MethodsQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules.Designer.cs">
+      <DependentUpon>Modules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModulesQuiz.Designer.cs">
+      <DependentUpon>ModulesQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesTerms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModulesTerms.Designer.cs">
+      <DependentUpon>ModulesTerms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pariveda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pariveda.Designer.cs">
+      <DependentUpon>Pariveda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodsFunctions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MethodsFunctions.Designer.cs">
+      <DependentUpon>MethodsFunctions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfDanish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfDanish.Designer.cs">
+      <DependentUpon>ProfDanish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessionalDev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessionalDev.Designer.cs">
+      <DependentUpon>ProfessionalDev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessorLogin.Designer.cs">
+      <DependentUpon>ProfessorLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessorView.Designer.cs">
+      <DependentUpon>ProfessorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfJeff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfJeff.Designer.cs">
+      <DependentUpon>ProfJeff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProfSelector.Designer.cs">
+      <DependentUpon>ProfSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResumeTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResumeTemplate.Designer.cs">
+      <DependentUpon>ResumeTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showDanish.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="showDanish.Designer.cs">
+      <DependentUpon>showDanish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showJeff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="showJeff.Designer.cs">
+      <DependentUpon>showJeff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentProfile.Designer.cs">
+      <DependentUpon>StudentProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Students.cs" />
+    <Compile Include="StudentUtilities.cs" />
+    <Compile Include="Topics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Topics.Designer.cs">
+      <DependentUpon>Topics.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acuity.resx">
+      <DependentUpon>Acuity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arrays.resx">
+      <DependentUpon>Arrays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CGI.resx">
+      <DependentUpon>CGI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrimsonMailLogin.resx">
+      <DependentUpon>CrimsonMailLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crowe.resx">
+      <DependentUpon>Crowe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email.resx">
+      <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterivewPrepTech.resx">
+      <DependentUpon>InterivewPrepTech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterviewPrepBehav.resx">
+      <DependentUpon>InterviewPrepBehav.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroCompProg.resx">
+      <DependentUpon>IntroCompProg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroQuiz.resx">
+      <DependentUpon>IntroQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroTerms.resx">
+      <DependentUpon>IntroTerms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPOFlowchart.resx">
+      <DependentUpon>IPOFlowchart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPOFlowchartQuiz.resx">
+      <DependentUpon>IPOFlowchartQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPOFlowchartVisuals.resx">
+      <DependentUpon>IPOFlowchartVisuals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodsQuiz.resx">
+      <DependentUpon>MethodsQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules.resx">
+      <DependentUpon>Modules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesQuiz.resx">
+      <DependentUpon>ModulesQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesTerms.resx">
+      <DependentUpon>ModulesTerms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pariveda.resx">
+      <DependentUpon>Pariveda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodsFunctions.resx">
+      <DependentUpon>MethodsFunctions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfDanish.resx">
+      <DependentUpon>ProfDanish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessionalDev.resx">
+      <DependentUpon>ProfessionalDev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessorLogin.resx">
+      <DependentUpon>ProfessorLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessorView.resx">
+      <DependentUpon>ProfessorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfJeff.resx">
+      <DependentUpon>ProfJeff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfSelector.resx">
+      <DependentUpon>ProfSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResumeTemplate.resx">
+      <DependentUpon>ResumeTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showDanish.resx">
+      <DependentUpon>showDanish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showJeff.resx">
+      <DependentUpon>showJeff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentProfile.resx">
+      <DependentUpon>StudentProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Topics.resx">
+      <DependentUpon>Topics.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jeff_lucas_pariveda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danish_saifee_pariveda2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,40 @@
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\bin\Debug\Pariveda Challenge.exe.config
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\bin\Debug\Pariveda Challenge.exe
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\bin\Debug\Pariveda Challenge.pdb
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Form1.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Properties.Resources.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda Challenge.csproj.GenerateResource.cache
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda Challenge.exe
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda Challenge.pdb
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ProfDanish.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ProfJeff.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Topics.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.MethodsFunctions.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ProfessionalDev.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Acuity.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Pariveda.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Crowe.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.CGI.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ResumeTemplate.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Arrays.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.MethodsQuiz.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.IntroCompProg.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.IntroTerms.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.IntroQuiz.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.IPOFlowchart.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.IPOFlowchartQuiz.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.IPOFlowchartVisuals.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Modules.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ModulesTerms.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ModulesQuiz.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Email.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.CrimsonMailLogin.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.showDanish.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.showJeff.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ProfSelector.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda Challenge.csprojAssemblyReference.cache
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.InterviewPrepBehav.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.InterivewPrepTech.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.StudentLogin.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ProfessorLogin.resources
+C:\Users\Emily Moye\source\repos\Pariveda Challenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ProfessorView.resources

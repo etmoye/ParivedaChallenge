@@ -1,0 +1,19 @@
+Module: A group of statements that exists for the purpose of performing a specific task within a program
+
+Hierarchy/Structure Charts: Show boxes that represent each module in a program
+
+Local Variable: Declared inside a module and cannot be accessed by statements that are ourside the module
+
+Scope: Part of a program in which a variable can be accessed
+
+Argument: Any piece of data that is passed into a module when the module is called
+
+Parameter: Variable that recieves an argument that is passed into a module.
+
+Pass Argument by Value: Only a copy of the argument value is passed into the parameter variable
+
+Pass Argument by Reference: Argument passed into a special type of parameter known as a reference variable, when a reference variable is used as a parameter, it allows the module to modify the argument in the calling part of the program
+
+Global Variable: Variable that is visible to every module in a program
+
+Global Constant: Named constant that is available to every module in the program, value cannot be changed during the program
