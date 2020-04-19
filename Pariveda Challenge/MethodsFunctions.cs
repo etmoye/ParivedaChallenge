@@ -61,8 +61,8 @@ namespace Pariveda_Challenge
             txbIntro4.Visible = false;
             txbIntro5.Visible = false;
 
-            richTextBoxMethodsCode.Visible = true;
-            richTextBoxMethodsCode.Text = File.ReadAllText("MethodsFunctionsCode.txt");
+           //// richTextBoxMethodsCode.Visible = true;
+            //richTextBoxMethodsCode.Text = File.ReadAllText("MethodsFunctionsCode.txt");
 
         }
 
@@ -83,13 +83,32 @@ namespace Pariveda_Challenge
             txbIntro4.Visible = true;
             txbIntro5.Visible = true;
 
-            richTextBoxMethodsCode.Visible = false;
+            //richTextBoxMethodsCode.Visible = false;
 
         }
 
         private void MethodsFunctions_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonQuiz_Click_1(object sender, EventArgs e)
+        {
+            MethodsQuiz showQuiz = new MethodsQuiz();
+            if (showQuiz.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
+
+        private void buttonTerms_Click_1(object sender, EventArgs e)
+        {
+            methodsCode1.Visible = true;
+        }
+
+        private void buttonIntro_Click_1(object sender, EventArgs e)
+        {
+            methodsCode1.Visible = false;
         }
     }
 }

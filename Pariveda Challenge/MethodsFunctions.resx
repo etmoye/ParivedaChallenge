@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="txbIntro1.Text" xml:space="preserve">
-    <value>A method is a module that returns a value back to the part of the program that called. Typically, programming languages contain a library of previously written methods that perform commonly needed tasks.
+    <value>A method is a module that returns a value back to the part of the program that called it. Typically, programming languages contain a library of previously written methods that perform commonly needed tasks.
 
 </value>
   </data>

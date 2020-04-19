@@ -35,8 +35,6 @@
             this.buttonMethodsAndFunctions = new System.Windows.Forms.Button();
             this.buttonArrays = new System.Windows.Forms.Button();
             this.buttonFileHandling = new System.Windows.Forms.Button();
-            this.buttonInputValidation = new System.Windows.Forms.Button();
-            this.buttonTextProcessing = new System.Windows.Forms.Button();
             this.buttonOOP = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonAsk = new System.Windows.Forms.Button();
@@ -86,14 +84,15 @@
             this.buttonDecisionRepetitionStructures.Name = "buttonDecisionRepetitionStructures";
             this.buttonDecisionRepetitionStructures.Size = new System.Drawing.Size(296, 76);
             this.buttonDecisionRepetitionStructures.TabIndex = 3;
-            this.buttonDecisionRepetitionStructures.Text = "4. Decision and Repetition Structures";
+            this.buttonDecisionRepetitionStructures.Text = "4. Control Structures";
             this.buttonDecisionRepetitionStructures.UseVisualStyleBackColor = true;
+            this.buttonDecisionRepetitionStructures.Click += new System.EventHandler(this.buttonDecisionRepetitionStructures_Click);
             // 
             // buttonMethodsAndFunctions
             // 
             this.buttonMethodsAndFunctions.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonMethodsAndFunctions.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonMethodsAndFunctions.Location = new System.Drawing.Point(169, 528);
+            this.buttonMethodsAndFunctions.Location = new System.Drawing.Point(510, 147);
             this.buttonMethodsAndFunctions.Name = "buttonMethodsAndFunctions";
             this.buttonMethodsAndFunctions.Size = new System.Drawing.Size(296, 76);
             this.buttonMethodsAndFunctions.TabIndex = 4;
@@ -109,7 +108,7 @@
             this.buttonArrays.Name = "buttonArrays";
             this.buttonArrays.Size = new System.Drawing.Size(296, 76);
             this.buttonArrays.TabIndex = 5;
-            this.buttonArrays.Text = "7. Arrays";
+            this.buttonArrays.Text = "6. Arrays";
             this.buttonArrays.UseVisualStyleBackColor = true;
             this.buttonArrays.Click += new System.EventHandler(this.buttonArrays_Click);
             // 
@@ -117,34 +116,13 @@
             // 
             this.buttonFileHandling.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonFileHandling.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonFileHandling.Location = new System.Drawing.Point(510, 528);
+            this.buttonFileHandling.Location = new System.Drawing.Point(510, 338);
             this.buttonFileHandling.Name = "buttonFileHandling";
             this.buttonFileHandling.Size = new System.Drawing.Size(296, 76);
             this.buttonFileHandling.TabIndex = 6;
-            this.buttonFileHandling.Text = "10. File Handling";
+            this.buttonFileHandling.Text = "7. File Handling";
             this.buttonFileHandling.UseVisualStyleBackColor = true;
-            // 
-            // buttonInputValidation
-            // 
-            this.buttonInputValidation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonInputValidation.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonInputValidation.Location = new System.Drawing.Point(510, 147);
-            this.buttonInputValidation.Name = "buttonInputValidation";
-            this.buttonInputValidation.Size = new System.Drawing.Size(296, 76);
-            this.buttonInputValidation.TabIndex = 7;
-            this.buttonInputValidation.Text = "6. Input Validation";
-            this.buttonInputValidation.UseVisualStyleBackColor = true;
-            // 
-            // buttonTextProcessing
-            // 
-            this.buttonTextProcessing.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonTextProcessing.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonTextProcessing.Location = new System.Drawing.Point(510, 338);
-            this.buttonTextProcessing.Name = "buttonTextProcessing";
-            this.buttonTextProcessing.Size = new System.Drawing.Size(296, 76);
-            this.buttonTextProcessing.TabIndex = 8;
-            this.buttonTextProcessing.Text = "8. Text Processing";
-            this.buttonTextProcessing.UseVisualStyleBackColor = true;
+            this.buttonFileHandling.Click += new System.EventHandler(this.buttonFileHandling_Click);
             // 
             // buttonOOP
             // 
@@ -154,7 +132,7 @@
             this.buttonOOP.Name = "buttonOOP";
             this.buttonOOP.Size = new System.Drawing.Size(296, 76);
             this.buttonOOP.TabIndex = 9;
-            this.buttonOOP.Text = "9. Object Oriented Programming";
+            this.buttonOOP.Text = "8. Object Oriented Programming";
             this.buttonOOP.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -171,7 +149,7 @@
             // 
             // buttonAsk
             // 
-            this.buttonAsk.Location = new System.Drawing.Point(306, 638);
+            this.buttonAsk.Location = new System.Drawing.Point(301, 554);
             this.buttonAsk.Name = "buttonAsk";
             this.buttonAsk.Size = new System.Drawing.Size(366, 42);
             this.buttonAsk.TabIndex = 11;
@@ -183,12 +161,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(990, 727);
+            this.ClientSize = new System.Drawing.Size(987, 663);
             this.Controls.Add(this.buttonAsk);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonOOP);
-            this.Controls.Add(this.buttonTextProcessing);
-            this.Controls.Add(this.buttonInputValidation);
             this.Controls.Add(this.buttonFileHandling);
             this.Controls.Add(this.buttonArrays);
             this.Controls.Add(this.buttonMethodsAndFunctions);
@@ -216,8 +192,6 @@
         private System.Windows.Forms.Button buttonMethodsAndFunctions;
         private System.Windows.Forms.Button buttonArrays;
         private System.Windows.Forms.Button buttonFileHandling;
-        private System.Windows.Forms.Button buttonInputValidation;
-        private System.Windows.Forms.Button buttonTextProcessing;
         private System.Windows.Forms.Button buttonOOP;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonAsk;

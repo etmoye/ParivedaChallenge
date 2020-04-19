@@ -117,4 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>To expand the functionality of arrays we can create parallel arrays. Parallel arrays use the same subscript to create a relationship between data stored in two or more arrays. For example, if you wanted to keep up with students and thier student ID, you could create parallel arrays as the student ID is a unique value associated with each student.
+
+
+</value>
+  </data>
+  <data name="txbIntro4.Text" xml:space="preserve">
+    <value>When using array one way to locate an item in an array is through a sequential search. The sequential search algorithm is a simple technique for finding an item in a string or numeric array. This process uses a loop to sequentially step through an array, it will compare each element to the value being searched for, the loop will end when the value is found or the end of the array is met.
+
+
+
+</value>
+  </data>
+  <data name="txbIntro2.Text" xml:space="preserve">
+    <value>When declaring arrays, you must use bracket to state the size of the array. You can not fill an array beyond the size you declare it as. You can, however, only partially fill an array. A partially filled array is an array bigger than what is filled. This may create out of bounds errors if not properly handled. To avoid processing the unfilled elements you must have an accompanying integer variable that holds the number of items stored in the array. When an array is empty, zero is stored in this variable, the variable is then incremented each time an item is add. From this we are able to use the variables value as the array's size to prevent out of bounds errors.</value>
+  </data>
+  <data name="txbIntro1.Text" xml:space="preserve">
+    <value>An array allows you to store a group of items of the same data type in memory. Arrays contain multiple different storage locations known as elements. If you want to access or reference a particular data point in an array you must access it through the arrays subscript. Subscripts are a unique number that is used to identify each element of an array. </value>
+  </data>
 </root>

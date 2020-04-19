@@ -59,6 +59,12 @@
     <Compile Include="Arrays.Designer.cs">
       <DependentUpon>Arrays.cs</DependentUpon>
     </Compile>
+    <Compile Include="ArraysQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArraysQuiz.Designer.cs">
+      <DependentUpon>ArraysQuiz.cs</DependentUpon>
+    </Compile>
     <Compile Include="CGI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,11 +83,35 @@
     <Compile Include="Crowe.Designer.cs">
       <DependentUpon>Crowe.cs</DependentUpon>
     </Compile>
+    <Compile Include="DecisionStructure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DecisionStructure.Designer.cs">
+      <DependentUpon>DecisionStructure.cs</DependentUpon>
+    </Compile>
     <Compile Include="Email.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Email.Designer.cs">
       <DependentUpon>Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileHandling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileHandling.Designer.cs">
+      <DependentUpon>FileHandling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileHandlingCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FileHandlingCode.Designer.cs">
+      <DependentUpon>FileHandlingCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileHandlingQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileHandlingQuiz.Designer.cs">
+      <DependentUpon>FileHandlingQuiz.cs</DependentUpon>
     </Compile>
     <Compile Include="InterivewPrepTech.cs">
       <SubType>Form</SubType>
@@ -130,6 +160,18 @@
     </Compile>
     <Compile Include="IPOFlowchartVisuals.Designer.cs">
       <DependentUpon>IPOFlowchartVisuals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginReport.Designer.cs">
+      <DependentUpon>LoginReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodsCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MethodsCode.Designer.cs">
+      <DependentUpon>MethodsCode.cs</DependentUpon>
     </Compile>
     <Compile Include="MethodsQuiz.cs">
       <SubType>Form</SubType>
@@ -211,6 +253,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepetitionStructure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RepetitionStructure.Designer.cs">
+      <DependentUpon>RepetitionStructure.cs</DependentUpon>
+    </Compile>
     <Compile Include="ResumeTemplate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +276,18 @@
     </Compile>
     <Compile Include="showJeff.Designer.cs">
       <DependentUpon>showJeff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Structures.Designer.cs">
+      <DependentUpon>Structures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StructuresQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StructuresQuiz.Designer.cs">
+      <DependentUpon>StructuresQuiz.cs</DependentUpon>
     </Compile>
     <Compile Include="StudentProfile.cs">
       <SubType>Form</SubType>
@@ -249,6 +309,9 @@
     <EmbeddedResource Include="Arrays.resx">
       <DependentUpon>Arrays.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ArraysQuiz.resx">
+      <DependentUpon>ArraysQuiz.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CGI.resx">
       <DependentUpon>CGI.cs</DependentUpon>
     </EmbeddedResource>
@@ -258,8 +321,20 @@
     <EmbeddedResource Include="Crowe.resx">
       <DependentUpon>Crowe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DecisionStructure.resx">
+      <DependentUpon>DecisionStructure.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Email.resx">
       <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileHandling.resx">
+      <DependentUpon>FileHandling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileHandlingCode.resx">
+      <DependentUpon>FileHandlingCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileHandlingQuiz.resx">
+      <DependentUpon>FileHandlingQuiz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InterivewPrepTech.resx">
       <DependentUpon>InterivewPrepTech.cs</DependentUpon>
@@ -284,6 +359,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IPOFlowchartVisuals.resx">
       <DependentUpon>IPOFlowchartVisuals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginReport.resx">
+      <DependentUpon>LoginReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodsCode.resx">
+      <DependentUpon>MethodsCode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MethodsQuiz.resx">
       <DependentUpon>MethodsQuiz.cs</DependentUpon>
@@ -334,6 +415,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RepetitionStructure.resx">
+      <DependentUpon>RepetitionStructure.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ResumeTemplate.resx">
       <DependentUpon>ResumeTemplate.cs</DependentUpon>
     </EmbeddedResource>
@@ -342,6 +426,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="showJeff.resx">
       <DependentUpon>showJeff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Structures.resx">
+      <DependentUpon>Structures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StructuresQuiz.resx">
+      <DependentUpon>StructuresQuiz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentProfile.resx">
       <DependentUpon>StudentProfile.cs</DependentUpon>

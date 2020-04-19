@@ -28,7 +28,11 @@ namespace Pariveda_Challenge
 
         private void buttonArrays_Click(object sender, EventArgs e)
         {
+            Arrays showArrays = new Arrays();
+            if (showArrays.ShowDialog() == DialogResult.OK)
+            {
 
+            }
         }
 
         private void buttonIntro_Click(object sender, EventArgs e)
@@ -62,6 +66,24 @@ namespace Pariveda_Challenge
         {
             CrimsonMailLogin showEmail = new CrimsonMailLogin();
             if (showEmail.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
+
+        private void buttonDecisionRepetitionStructures_Click(object sender, EventArgs e)
+        {
+            Structures showStructures = new Structures();
+            if (showStructures.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
+
+        private void buttonFileHandling_Click(object sender, EventArgs e)
+        {
+            FileHandling showFileHandling = new FileHandling();
+            if (showFileHandling.ShowDialog() == DialogResult.OK)
             {
 
             }

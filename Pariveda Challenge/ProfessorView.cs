@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Drawing;
 
 namespace Pariveda_Challenge
 {
@@ -50,6 +51,13 @@ namespace Pariveda_Challenge
 
             GetAllStudents();                                                                                                                                                     //
             listBox1.DataSource = viewStudents;
+            //
+            //Sort();
+           
+            LoginTracker();
+           
+            
+            richTextBox1.Text = File.ReadAllText("LoginReport.txt");
 
             ////streamreader
             //listBox1.DataSource = viewStudents;
@@ -109,7 +117,128 @@ namespace Pariveda_Challenge
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            //LoginReport showReport = new LoginReport();
+            //if (showReport.ShowDialog() == DialogResult.OK)
+            //{
+
+            //}
+            richTextBox1.Visible = true;
+            label1.Visible = false;
+            labelName.Visible = false;
+            labelCWID.Visible = false;
+            labelClass.Visible = false;
+            labelEmail.Visible = false;
+            textBoxName.Visible = false;
+            textBoxCWID.Visible = false;
+            textBoxClass.Visible = false;
+            textBoxEmail.Visible = false;
+            button1.Visible = false;
+            listBox1.Visible = false;
+               
+           // richTextBox1.BringToFront = true;
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+           // richTextBox1.Text = File.ReadAllText("LoginReport.txt");
+            // //Students[] viewStudents = new Students[50];
+            // StreamReader inFile = new StreamReader("LoginReport.txt");
+            // string input = inFile.ReadToEnd();
+            // richTextBox1.Text = File.ReadAllText(inFile);
+            //// Globals.notes = richTextBox1.Text;
+        }
+
+
+
+        ///////////////////////////////////////////////////////////////////
+
+        public void LoginTracker()
+        {
+
+            ///////Sort
+            StreamWriter sort = new StreamWriter("sort.txt");
+            sort.WriteLine("this should sort: ");
+
+            for (int i = 0; i < Students.GetCount() - 1; i++)
+            {
+                int min = i;
+
+                for (int j = i + 1; j < Students.GetCount(); j++)
+                {
+                    if (viewStudents[min].GetStudentName().CompareTo(viewStudents[j].GetStudentName()) > 0)
+                    {
+                        min = j;
+                    }
+                }
+
+                if (min != i)
+                {
+                    Swap(min, i);
+                }
+                // sort.WriteLine(viewStudents[i]);
+            }
+
+            //StreamWriter sort = new StreamWriter("sort.txt");
+            // sort.WriteLine(viewStudents);
+
+            sort.Close();
+
+            //////////////////////////////
+            string currentStudent = viewStudents[0].GetStudentName();
+            int loginCount = 1;
+            StreamWriter outFile = new StreamWriter("LoginReport.txt");
+
+            // outFile.WriteLine(viewStudents[0].ToString());
+            // GetAllStudents();
+            //outFile.WriteLine("Student\t\t\t\t\t\tLogin Count");
+
+            for (int i = 1; i < Students.GetCount(); i++)
+            {
+                
+                if (viewStudents[i].GetStudentName() == currentStudent)
+                {
+                   // outFile.WriteLine(viewStudents[i].ToString());
+                    loginCount++;
+
+                }
+                else
+                {
+                    outFile.WriteLine(currentStudent + " has logged in " + loginCount + " times.\n");
+                    currentStudent = viewStudents[i].GetStudentName();
+                    loginCount = 1;
+                }
+            }
+            //outFile.WriteLine("Student: " + currentStudent + "\tNumber of Logins: " + loginCount + "\n");
+            outFile.WriteLine(currentStudent + " has logged in " + loginCount + " times.\n");
+            outFile.Close();
+        }
+
+        public void Sort()
+        {
+            for (int i = 0; i < Students.GetCount() - 1; i++)
+            {
+                int min = i;
+
+                for (int j = i + 1; j > Students.GetCount(); j++)
+                {
+                    if (viewStudents[min].GetStudentName().CompareTo(viewStudents[j].GetStudentName()) < 0)
+                    {
+                        min = j;
+                    }
+                }
+
+                if (min != i)
+                {
+                    Swap(min, i);
+                }
+            }
+        }
+
+        public void Swap(int x, int y)
+        {
+            Students temp = viewStudents[x];
+            viewStudents[x] = viewStudents[y];
+            viewStudents[y] = temp;
         }
     }
 }

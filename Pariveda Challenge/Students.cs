@@ -12,15 +12,17 @@ namespace Pariveda_Challenge
         public string studentCwid;
         public string studentClass;
         public string studentEmail;
+       // public string loginTime;
 
         public static int count;
 
         public Students(string studentName, string studentCwid, string studentClass, string studentEmail)
-        {
+        { 
             this.studentName = studentName;
             this.studentCwid = studentCwid;
             this.studentClass = studentClass;
             this.studentEmail = studentEmail;
+           // this.loginTime = loginTime;
         }
         public Students()
         {
@@ -69,6 +71,12 @@ namespace Pariveda_Challenge
 
         public string ToFile()
         {
+
+            DateTime localDate = DateTime.Now;
+            //localDate.ToShortDateString();
+            localDate.ToShortTimeString();
+
+           
             return studentName + '-' + studentCwid + '-' + studentClass + '-' + studentEmail; 
         }
 

@@ -16,5 +16,14 @@ namespace Pariveda_Challenge
         {
             InitializeComponent();
         }
+
+        private void buttonQuiz_Click(object sender, EventArgs e)
+        {
+            ArraysQuiz showQuiz = new ArraysQuiz();
+            if (showQuiz.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
     }
 }

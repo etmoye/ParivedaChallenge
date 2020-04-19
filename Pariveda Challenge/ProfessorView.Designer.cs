@@ -39,6 +39,7 @@
             this.textBoxClass = new System.Windows.Forms.TextBox();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // listBox1
@@ -144,6 +145,20 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("Arial", 12F);
+            this.richTextBox1.Location = new System.Drawing.Point(73, 50);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox1.Size = new System.Drawing.Size(749, 452);
+            this.richTextBox1.TabIndex = 11;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.Visible = false;
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
             // ProfessorView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -160,6 +175,7 @@
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.richTextBox1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ProfessorView";
@@ -185,5 +201,6 @@
         private System.Windows.Forms.TextBox textBoxClass;
         private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

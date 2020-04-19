@@ -58,5 +58,85 @@ namespace Pariveda_Challenge
 
             MessageBox.Show("You answered " + countCorrect + " questions correctly");
         }
+
+        private void comboBox8_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox7_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbIntro4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
