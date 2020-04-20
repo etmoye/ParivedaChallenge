@@ -59,6 +59,12 @@
     <Compile Include="Arrays.Designer.cs">
       <DependentUpon>Arrays.cs</DependentUpon>
     </Compile>
+    <Compile Include="ArraysLogicCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArraysLogicCode.Designer.cs">
+      <DependentUpon>ArraysLogicCode.cs</DependentUpon>
+    </Compile>
     <Compile Include="ArraysQuiz.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,18 @@
     <Compile Include="FileHandlingQuiz.Designer.cs">
       <DependentUpon>FileHandlingQuiz.cs</DependentUpon>
     </Compile>
+    <Compile Include="OOPLogicCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OOPLogicCode.Designer.cs">
+      <DependentUpon>OOPLogicCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OOPQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOPQuiz.Designer.cs">
+      <DependentUpon>OOPQuiz.cs</DependentUpon>
+    </Compile>
     <Compile Include="InterivewPrepTech.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,12 +179,6 @@
     <Compile Include="IPOFlowchartVisuals.Designer.cs">
       <DependentUpon>IPOFlowchartVisuals.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginReport.Designer.cs">
-      <DependentUpon>LoginReport.cs</DependentUpon>
-    </Compile>
     <Compile Include="MethodsCode.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -197,6 +209,12 @@
     <Compile Include="ModulesTerms.Designer.cs">
       <DependentUpon>ModulesTerms.cs</DependentUpon>
     </Compile>
+    <Compile Include="OOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOP.Designer.cs">
+      <DependentUpon>OOP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pariveda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -214,6 +232,12 @@
     </Compile>
     <Compile Include="MethodsFunctions.Designer.cs">
       <DependentUpon>MethodsFunctions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice.Designer.cs">
+      <DependentUpon>Practice.cs</DependentUpon>
     </Compile>
     <Compile Include="ProfDanish.cs">
       <SubType>Form</SubType>
@@ -296,7 +320,6 @@
       <DependentUpon>StudentProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="Students.cs" />
-    <Compile Include="StudentUtilities.cs" />
     <Compile Include="Topics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -308,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Arrays.resx">
       <DependentUpon>Arrays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArraysLogicCode.resx">
+      <DependentUpon>ArraysLogicCode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ArraysQuiz.resx">
       <DependentUpon>ArraysQuiz.cs</DependentUpon>
@@ -336,6 +362,12 @@
     <EmbeddedResource Include="FileHandlingQuiz.resx">
       <DependentUpon>FileHandlingQuiz.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OOPLogicCode.resx">
+      <DependentUpon>OOPLogicCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOPQuiz.resx">
+      <DependentUpon>OOPQuiz.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InterivewPrepTech.resx">
       <DependentUpon>InterivewPrepTech.cs</DependentUpon>
     </EmbeddedResource>
@@ -360,9 +392,6 @@
     <EmbeddedResource Include="IPOFlowchartVisuals.resx">
       <DependentUpon>IPOFlowchartVisuals.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginReport.resx">
-      <DependentUpon>LoginReport.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MethodsCode.resx">
       <DependentUpon>MethodsCode.cs</DependentUpon>
     </EmbeddedResource>
@@ -378,6 +407,9 @@
     <EmbeddedResource Include="ModulesTerms.resx">
       <DependentUpon>ModulesTerms.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OOP.resx">
+      <DependentUpon>OOP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pariveda.resx">
       <DependentUpon>Pariveda.cs</DependentUpon>
     </EmbeddedResource>
@@ -386,6 +418,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MethodsFunctions.resx">
       <DependentUpon>MethodsFunctions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice.resx">
+      <DependentUpon>Practice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfDanish.resx">
       <DependentUpon>ProfDanish.cs</DependentUpon>

@@ -301,6 +301,7 @@
             this.MinimizeBox = false;
             this.Name = "ArraysQuiz";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Arrays Quiz";
             this.ResumeLayout(false);
 

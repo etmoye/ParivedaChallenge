@@ -301,7 +301,9 @@
             this.MinimizeBox = false;
             this.Name = "StructuresQuiz";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Control Structures Quiz";
+            this.Load += new System.EventHandler(this.StructuresQuiz_Load);
             this.ResumeLayout(false);
 
         }

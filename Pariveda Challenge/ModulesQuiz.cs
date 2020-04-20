@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Pariveda_Challenge
 {
@@ -14,8 +15,13 @@ namespace Pariveda_Challenge
     {
         private static int countCorrect;
 
-        public ModulesQuiz()
+        Students viewStudent = new Students();
+        string studentName;
+
+
+        public ModulesQuiz(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
@@ -56,7 +62,17 @@ namespace Pariveda_Challenge
                 countCorrect++;
             }
 
-            MessageBox.Show("You answered " + countCorrect + " questions correctly");
+            MessageBox.Show("You answered " + countCorrect + " questions correctly", "Results");
+            this.Close();
+        }
+
+        public void SaveResults(string studentnName, int countCorrect)
+        {
+            StreamWriter outfile = new StreamWriter("QuizResults.txt", true); //("output.txt", true) use if you want to append
+            outfile.WriteLine(studentName + " answered " + countCorrect + " questions correctly on the Modules quiz");
+
+            outfile.Close();
+
         }
 
         private void comboBox8_SelectedIndexChanged(object sender, EventArgs e)
@@ -135,6 +151,11 @@ namespace Pariveda_Challenge
         }
 
         private void txbIntro4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ModulesQuiz_Load(object sender, EventArgs e)
         {
 
         }

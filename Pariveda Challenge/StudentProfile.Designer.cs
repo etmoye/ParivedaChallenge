@@ -41,7 +41,7 @@
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(404, 350);
+            this.buttonSave.Location = new System.Drawing.Point(376, 339);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(125, 66);
             this.buttonSave.TabIndex = 0;
@@ -53,21 +53,21 @@
             // 
             this.labelName.AutoSize = true;
             this.labelName.Font = new System.Drawing.Font("Arial", 12F);
-            this.labelName.Location = new System.Drawing.Point(52, 51);
+            this.labelName.Location = new System.Drawing.Point(49, 51);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(75, 27);
+            this.labelName.Size = new System.Drawing.Size(82, 27);
             this.labelName.TabIndex = 1;
-            this.labelName.Text = "Name";
+            this.labelName.Text = "Name:";
             // 
             // labelCwid
             // 
             this.labelCwid.AutoSize = true;
             this.labelCwid.Font = new System.Drawing.Font("Arial", 12F);
-            this.labelCwid.Location = new System.Drawing.Point(52, 122);
+            this.labelCwid.Location = new System.Drawing.Point(49, 122);
             this.labelCwid.Name = "labelCwid";
-            this.labelCwid.Size = new System.Drawing.Size(75, 27);
+            this.labelCwid.Size = new System.Drawing.Size(82, 27);
             this.labelCwid.TabIndex = 2;
-            this.labelCwid.Text = "CWID";
+            this.labelCwid.Text = "CWID:";
             // 
             // labelClass
             // 
@@ -75,9 +75,9 @@
             this.labelClass.Font = new System.Drawing.Font("Arial", 12F);
             this.labelClass.Location = new System.Drawing.Point(52, 193);
             this.labelClass.Name = "labelClass";
-            this.labelClass.Size = new System.Drawing.Size(72, 27);
+            this.labelClass.Size = new System.Drawing.Size(79, 27);
             this.labelClass.TabIndex = 3;
-            this.labelClass.Text = "Class";
+            this.labelClass.Text = "Class:";
             // 
             // labelEmail
             // 
@@ -85,14 +85,14 @@
             this.labelEmail.Font = new System.Drawing.Font("Arial", 12F);
             this.labelEmail.Location = new System.Drawing.Point(52, 264);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(72, 27);
+            this.labelEmail.Size = new System.Drawing.Size(79, 27);
             this.labelEmail.TabIndex = 4;
-            this.labelEmail.Text = "Email";
+            this.labelEmail.Text = "Email:";
             // 
             // textBoxName
             // 
             this.textBoxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxName.Location = new System.Drawing.Point(165, 51);
+            this.textBoxName.Location = new System.Drawing.Point(137, 51);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(364, 32);
             this.textBoxName.TabIndex = 5;
@@ -101,7 +101,7 @@
             // textBoxCwid
             // 
             this.textBoxCwid.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCwid.Location = new System.Drawing.Point(165, 122);
+            this.textBoxCwid.Location = new System.Drawing.Point(137, 122);
             this.textBoxCwid.Name = "textBoxCwid";
             this.textBoxCwid.Size = new System.Drawing.Size(364, 32);
             this.textBoxCwid.TabIndex = 6;
@@ -109,7 +109,7 @@
             // textBoxEmail
             // 
             this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail.Location = new System.Drawing.Point(165, 264);
+            this.textBoxEmail.Location = new System.Drawing.Point(137, 264);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(364, 32);
             this.textBoxEmail.TabIndex = 7;
@@ -123,7 +123,7 @@
             "Sophomore",
             "Junior",
             "Senior"});
-            this.comboBoxClass.Location = new System.Drawing.Point(165, 193);
+            this.comboBoxClass.Location = new System.Drawing.Point(137, 193);
             this.comboBoxClass.Name = "comboBoxClass";
             this.comboBoxClass.Size = new System.Drawing.Size(364, 34);
             this.comboBoxClass.TabIndex = 8;
@@ -132,7 +132,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(623, 451);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(590, 463);
             this.Controls.Add(this.comboBoxClass);
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.textBoxCwid);

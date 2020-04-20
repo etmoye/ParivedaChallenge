@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Pariveda_Challenge
 {
@@ -14,37 +15,16 @@ namespace Pariveda_Challenge
     {
         public static int countCorrect;
 
-        public MethodsQuiz()
+        Students viewStudent = new Students();
+        string studentName;
+
+        public MethodsQuiz(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    countCorrect = 0;
-
-        //    if (comboBox1.Text == "A")
-        //    {
-        //        countCorrect++;
-        //    }
-           
-        //    if (comboBox2.Text == "A")
-        //    {
-        //        countCorrect++;
-        //    }
-        //    if (comboBox3.Text == "A")
-        //    {
-        //        countCorrect++;
-        //    }
-        //    if (comboBox4.Text == "A")
-        //    {
-        //        countCorrect++;
-        //    }
-
-        //    MessageBox.Show("You correctly answered " + countCorrect + " questions");
-
-
-       // }
+        
 
         private void MethodsQuiz_Load(object sender, EventArgs e)
         {
@@ -89,7 +69,18 @@ namespace Pariveda_Challenge
                 countCorrect++;
             }
 
-            MessageBox.Show("You answered " + countCorrect + " questions correctly");
+            MessageBox.Show("You answered " + countCorrect + " questions correctly", "Results");
+            SaveResults(studentName, countCorrect);
+            this.Close();
+
+        }
+
+        public void SaveResults(string studentnName, int countCorrect)
+        {
+            StreamWriter outfile = new StreamWriter("QuizResults.txt", true); //("output.txt", true) use if you want to append
+            outfile.WriteLine(studentName + " answered " + countCorrect + " questions correctly on the Methods quiz");
+
+            outfile.Close();
 
         }
     }

@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Pariveda_Challenge
 {
     public partial class StructuresQuiz : Form
     {
         public static int countCorrect;
-        public StructuresQuiz()
+        Students viewStudent = new Students();
+        string studentName;
+
+        public StructuresQuiz(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
@@ -55,7 +60,23 @@ namespace Pariveda_Challenge
                 countCorrect++;
             }
 
-            MessageBox.Show("You answered " + countCorrect + " questions correctly");
+            MessageBox.Show("You answered " + countCorrect + " questions correctly", "Results");
+            SaveResults(studentName, countCorrect);
+            this.Close();
+        }
+
+        public void SaveResults(string studentnName, int countCorrect)
+        {
+            StreamWriter outfile = new StreamWriter("QuizResults.txt", true); //("output.txt", true) use if you want to append
+            outfile.WriteLine(studentName + " answered " + countCorrect + " questions correctly on the Control Structures quiz");
+
+            outfile.Close();
+
+        }
+
+        private void StructuresQuiz_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

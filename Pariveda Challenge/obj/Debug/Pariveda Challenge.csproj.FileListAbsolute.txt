@@ -87,4 +87,8 @@ C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challen
 C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.FileHandlingCode.resources
 C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.MethodsCode.resources
 C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ArraysQuiz.resources
-C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.LoginReport.resources
+C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.OOPQuiz.resources
+C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.OOP.resources
+C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.Practice.resources
+C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.ArraysLogicCode.resources
+C:\Users\Emily Moye\source\repos\ParivedaPull\ParivedaChallenge\Pariveda Challenge\obj\Debug\Pariveda_Challenge.OOPLogicCode.resources

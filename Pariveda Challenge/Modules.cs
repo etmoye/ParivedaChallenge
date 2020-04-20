@@ -12,8 +12,12 @@ namespace Pariveda_Challenge
 {
     public partial class Modules : Form
     {
-        public Modules()
+        Students viewStudent = new Students();
+        string studentName;
+
+        public Modules(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
@@ -28,11 +32,16 @@ namespace Pariveda_Challenge
 
         private void buttonQuiz_Click(object sender, EventArgs e)
         {
-            ModulesQuiz showQuiz = new ModulesQuiz();
+            ModulesQuiz showQuiz = new ModulesQuiz(studentName);
             if (showQuiz.ShowDialog() == DialogResult.OK)
             {
 
             }
+        }
+
+        private void Modules_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

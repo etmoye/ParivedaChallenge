@@ -54,6 +54,7 @@
             this.txbIntro4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbIntro4.Location = new System.Drawing.Point(36, 15);
             this.txbIntro4.Name = "txbIntro4";
+            this.txbIntro4.ReadOnly = true;
             this.txbIntro4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.txbIntro4.Size = new System.Drawing.Size(871, 119);
             this.txbIntro4.TabIndex = 20;
@@ -100,6 +101,7 @@
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(36, 134);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox1.Size = new System.Drawing.Size(981, 119);
             this.richTextBox1.TabIndex = 22;
@@ -129,6 +131,7 @@
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox2.Location = new System.Drawing.Point(36, 253);
             this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
             this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox2.Size = new System.Drawing.Size(981, 119);
             this.richTextBox2.TabIndex = 24;
@@ -158,6 +161,7 @@
             this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox3.Location = new System.Drawing.Point(36, 372);
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox3.Size = new System.Drawing.Size(981, 119);
             this.richTextBox3.TabIndex = 26;
@@ -167,7 +171,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(895, 898);
+            this.button1.Location = new System.Drawing.Point(867, 898);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(202, 69);
             this.button1.TabIndex = 28;
@@ -198,6 +202,7 @@
             this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox4.Location = new System.Drawing.Point(36, 491);
             this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
             this.richTextBox4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox4.Size = new System.Drawing.Size(981, 119);
             this.richTextBox4.TabIndex = 29;
@@ -228,6 +233,7 @@
             this.richTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox5.Location = new System.Drawing.Point(36, 610);
             this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
             this.richTextBox5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox5.Size = new System.Drawing.Size(981, 119);
             this.richTextBox5.TabIndex = 31;
@@ -258,6 +264,7 @@
             this.richTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox6.Location = new System.Drawing.Point(36, 729);
             this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
             this.richTextBox6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox6.Size = new System.Drawing.Size(981, 119);
             this.richTextBox6.TabIndex = 33;
@@ -288,6 +295,7 @@
             this.richTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox7.Location = new System.Drawing.Point(36, 848);
             this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
             this.richTextBox7.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox7.Size = new System.Drawing.Size(981, 119);
             this.richTextBox7.TabIndex = 35;
@@ -322,6 +330,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Computers and Programming Quiz";
+            this.Load += new System.EventHandler(this.IntroQuiz_Load);
             this.ResumeLayout(false);
 
         }

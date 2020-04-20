@@ -42,104 +42,113 @@
             // 
             // buttonIntro
             // 
+            this.buttonIntro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonIntro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonIntro.Location = new System.Drawing.Point(169, 147);
+            this.buttonIntro.Location = new System.Drawing.Point(131, 147);
             this.buttonIntro.Name = "buttonIntro";
-            this.buttonIntro.Size = new System.Drawing.Size(296, 76);
+            this.buttonIntro.Size = new System.Drawing.Size(334, 76);
             this.buttonIntro.TabIndex = 0;
             this.buttonIntro.Text = "1. Introduction to Computers and Programming";
-            this.buttonIntro.UseVisualStyleBackColor = true;
+            this.buttonIntro.UseVisualStyleBackColor = false;
             this.buttonIntro.Click += new System.EventHandler(this.buttonIntro_Click);
             // 
             // buttonIPOFlowchart
             // 
+            this.buttonIPOFlowchart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonIPOFlowchart.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIPOFlowchart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonIPOFlowchart.Location = new System.Drawing.Point(169, 244);
+            this.buttonIPOFlowchart.Location = new System.Drawing.Point(131, 244);
             this.buttonIPOFlowchart.Name = "buttonIPOFlowchart";
-            this.buttonIPOFlowchart.Size = new System.Drawing.Size(296, 76);
+            this.buttonIPOFlowchart.Size = new System.Drawing.Size(334, 76);
             this.buttonIPOFlowchart.TabIndex = 1;
             this.buttonIPOFlowchart.Text = "2. IPO and Flowchart";
-            this.buttonIPOFlowchart.UseVisualStyleBackColor = true;
+            this.buttonIPOFlowchart.UseVisualStyleBackColor = false;
             this.buttonIPOFlowchart.Click += new System.EventHandler(this.buttonIPOFlowchart_Click);
             // 
             // buttonModules
             // 
+            this.buttonModules.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonModules.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonModules.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonModules.Location = new System.Drawing.Point(169, 338);
+            this.buttonModules.Location = new System.Drawing.Point(131, 338);
             this.buttonModules.Name = "buttonModules";
-            this.buttonModules.Size = new System.Drawing.Size(296, 76);
+            this.buttonModules.Size = new System.Drawing.Size(334, 76);
             this.buttonModules.TabIndex = 2;
             this.buttonModules.Text = "3. Modules";
-            this.buttonModules.UseVisualStyleBackColor = true;
+            this.buttonModules.UseVisualStyleBackColor = false;
             this.buttonModules.Click += new System.EventHandler(this.buttonModules_Click);
             // 
             // buttonDecisionRepetitionStructures
             // 
+            this.buttonDecisionRepetitionStructures.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonDecisionRepetitionStructures.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonDecisionRepetitionStructures.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonDecisionRepetitionStructures.Location = new System.Drawing.Point(169, 429);
+            this.buttonDecisionRepetitionStructures.Location = new System.Drawing.Point(131, 429);
             this.buttonDecisionRepetitionStructures.Name = "buttonDecisionRepetitionStructures";
-            this.buttonDecisionRepetitionStructures.Size = new System.Drawing.Size(296, 76);
+            this.buttonDecisionRepetitionStructures.Size = new System.Drawing.Size(334, 76);
             this.buttonDecisionRepetitionStructures.TabIndex = 3;
             this.buttonDecisionRepetitionStructures.Text = "4. Control Structures";
-            this.buttonDecisionRepetitionStructures.UseVisualStyleBackColor = true;
+            this.buttonDecisionRepetitionStructures.UseVisualStyleBackColor = false;
             this.buttonDecisionRepetitionStructures.Click += new System.EventHandler(this.buttonDecisionRepetitionStructures_Click);
             // 
             // buttonMethodsAndFunctions
             // 
+            this.buttonMethodsAndFunctions.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonMethodsAndFunctions.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonMethodsAndFunctions.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.buttonMethodsAndFunctions.Location = new System.Drawing.Point(510, 147);
             this.buttonMethodsAndFunctions.Name = "buttonMethodsAndFunctions";
-            this.buttonMethodsAndFunctions.Size = new System.Drawing.Size(296, 76);
+            this.buttonMethodsAndFunctions.Size = new System.Drawing.Size(334, 76);
             this.buttonMethodsAndFunctions.TabIndex = 4;
             this.buttonMethodsAndFunctions.Text = "5. Methods and Functions";
-            this.buttonMethodsAndFunctions.UseVisualStyleBackColor = true;
+            this.buttonMethodsAndFunctions.UseVisualStyleBackColor = false;
             this.buttonMethodsAndFunctions.Click += new System.EventHandler(this.buttonMethodsAndFunctions_Click);
             // 
             // buttonArrays
             // 
+            this.buttonArrays.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonArrays.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonArrays.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.buttonArrays.Location = new System.Drawing.Point(510, 244);
             this.buttonArrays.Name = "buttonArrays";
-            this.buttonArrays.Size = new System.Drawing.Size(296, 76);
+            this.buttonArrays.Size = new System.Drawing.Size(334, 76);
             this.buttonArrays.TabIndex = 5;
             this.buttonArrays.Text = "6. Arrays";
-            this.buttonArrays.UseVisualStyleBackColor = true;
+            this.buttonArrays.UseVisualStyleBackColor = false;
             this.buttonArrays.Click += new System.EventHandler(this.buttonArrays_Click);
             // 
             // buttonFileHandling
             // 
+            this.buttonFileHandling.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonFileHandling.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonFileHandling.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.buttonFileHandling.Location = new System.Drawing.Point(510, 338);
             this.buttonFileHandling.Name = "buttonFileHandling";
-            this.buttonFileHandling.Size = new System.Drawing.Size(296, 76);
+            this.buttonFileHandling.Size = new System.Drawing.Size(334, 76);
             this.buttonFileHandling.TabIndex = 6;
             this.buttonFileHandling.Text = "7. File Handling";
-            this.buttonFileHandling.UseVisualStyleBackColor = true;
+            this.buttonFileHandling.UseVisualStyleBackColor = false;
             this.buttonFileHandling.Click += new System.EventHandler(this.buttonFileHandling_Click);
             // 
             // buttonOOP
             // 
+            this.buttonOOP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonOOP.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonOOP.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.buttonOOP.Location = new System.Drawing.Point(510, 429);
             this.buttonOOP.Name = "buttonOOP";
-            this.buttonOOP.Size = new System.Drawing.Size(296, 76);
+            this.buttonOOP.Size = new System.Drawing.Size(334, 76);
             this.buttonOOP.TabIndex = 9;
             this.buttonOOP.Text = "8. Object Oriented Programming";
-            this.buttonOOP.UseVisualStyleBackColor = true;
+            this.buttonOOP.UseVisualStyleBackColor = false;
+            this.buttonOOP.Click += new System.EventHandler(this.buttonOOP_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 37);
+            this.label1.Location = new System.Drawing.Point(41, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(908, 96);
             this.label1.TabIndex = 10;
@@ -149,7 +158,8 @@
             // 
             // buttonAsk
             // 
-            this.buttonAsk.Location = new System.Drawing.Point(301, 554);
+            this.buttonAsk.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAsk.Location = new System.Drawing.Point(299, 558);
             this.buttonAsk.Name = "buttonAsk";
             this.buttonAsk.Size = new System.Drawing.Size(366, 42);
             this.buttonAsk.TabIndex = 11;
@@ -161,6 +171,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(987, 663);
             this.Controls.Add(this.buttonAsk);
             this.Controls.Add(this.label1);
@@ -178,6 +189,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Topics";
+            this.Load += new System.EventHandler(this.Topics_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

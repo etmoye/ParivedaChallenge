@@ -32,6 +32,7 @@ namespace Pariveda_Challenge
             {
                 MessageBox.Show("Invalid credentials.", "Error", MessageBoxButtons.OK);
             }
+            this.Close();
         }
 
         private void ProfessorLogin_Load(object sender, EventArgs e)

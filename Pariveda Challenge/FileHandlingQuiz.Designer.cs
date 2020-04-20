@@ -304,6 +304,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "File Handling Quiz";
+            this.Load += new System.EventHandler(this.FileHandlingQuiz_Load);
             this.ResumeLayout(false);
 
         }

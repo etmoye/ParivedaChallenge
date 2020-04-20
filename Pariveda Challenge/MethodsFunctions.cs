@@ -13,8 +13,12 @@ namespace Pariveda_Challenge
 {
     public partial class MethodsFunctions : Form
     {
-        public MethodsFunctions()
+        Students viewStudent = new Students();
+        string studentName;
+
+        public MethodsFunctions(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
@@ -68,7 +72,7 @@ namespace Pariveda_Challenge
 
         private void buttonQuiz_Click(object sender, EventArgs e)
         {
-            MethodsQuiz showQuiz = new MethodsQuiz();
+            MethodsQuiz showQuiz = new MethodsQuiz(studentName);
             if (showQuiz.ShowDialog() == DialogResult.OK)
             {
 
@@ -94,7 +98,7 @@ namespace Pariveda_Challenge
 
         private void buttonQuiz_Click_1(object sender, EventArgs e)
         {
-            MethodsQuiz showQuiz = new MethodsQuiz();
+            MethodsQuiz showQuiz = new MethodsQuiz(studentName);
             if (showQuiz.ShowDialog() == DialogResult.OK)
             {
 

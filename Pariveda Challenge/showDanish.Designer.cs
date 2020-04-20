@@ -114,9 +114,9 @@
             // picture3
             // 
             this.picture3.Image = ((System.Drawing.Image)(resources.GetObject("picture3.Image")));
-            this.picture3.Location = new System.Drawing.Point(484, -6);
+            this.picture3.Location = new System.Drawing.Point(446, 3);
             this.picture3.Name = "picture3";
-            this.picture3.Size = new System.Drawing.Size(226, 199);
+            this.picture3.Size = new System.Drawing.Size(265, 203);
             this.picture3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture3.TabIndex = 34;
             this.picture3.TabStop = false;
@@ -144,7 +144,7 @@
             // pictureDanish
             // 
             this.pictureDanish.Image = global::Pariveda_Challenge.Properties.Resources.danish_saifee_pariveda2;
-            this.pictureDanish.Location = new System.Drawing.Point(396, 199);
+            this.pictureDanish.Location = new System.Drawing.Point(395, 212);
             this.pictureDanish.Name = "pictureDanish";
             this.pictureDanish.Size = new System.Drawing.Size(362, 310);
             this.pictureDanish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -154,12 +154,12 @@
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Location = new System.Drawing.Point(545, 36);
+            this.richTextBox1.Location = new System.Drawing.Point(512, 55);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox1.Size = new System.Drawing.Size(104, 106);
+            this.richTextBox1.Size = new System.Drawing.Size(130, 102);
             this.richTextBox1.TabIndex = 43;
-            this.richTextBox1.Text = "You need to spend about 300 coding before you understand it";
+            this.richTextBox1.Text = "You need to spend about 300 hrs coding before you understand it";
             // 
             // showDanish
             // 

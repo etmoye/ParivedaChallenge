@@ -12,14 +12,18 @@ namespace Pariveda_Challenge
 {
     public partial class FileHandling : Form
     {
-        public FileHandling()
+        Students viewStudent = new Students();
+        string studentName;
+
+        public FileHandling(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
         private void buttonQuiz_Click(object sender, EventArgs e)
         {
-            FileHandlingQuiz showQuiz = new FileHandlingQuiz();
+            FileHandlingQuiz showQuiz = new FileHandlingQuiz(studentName);
             if (showQuiz.ShowDialog() == DialogResult.OK)
             {
 
@@ -34,6 +38,11 @@ namespace Pariveda_Challenge
         private void buttonIntro_Click(object sender, EventArgs e)
         {
             fileHandlingCode1.Visible = false;
+        }
+
+        private void FileHandling_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

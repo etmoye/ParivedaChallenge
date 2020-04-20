@@ -19,6 +19,8 @@ namespace Pariveda_Challenge
             InitializeComponent();
         }
 
+        //DO NOT USE - RAN INTO SECURITY ERRORS ACCESSING A GOOGLE ACCOUNT
+
         private void Email_Load(object sender, EventArgs e)
         {
 

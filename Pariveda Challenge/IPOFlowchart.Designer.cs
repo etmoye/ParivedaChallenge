@@ -59,7 +59,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.buttonQuiz);
             this.panel1.Controls.Add(this.buttonVisuals);
             this.panel1.Controls.Add(this.buttonIntro);
@@ -72,6 +72,8 @@
             // buttonQuiz
             // 
             this.buttonQuiz.BackColor = System.Drawing.Color.Black;
+            this.buttonQuiz.FlatAppearance.BorderSize = 0;
+            this.buttonQuiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonQuiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonQuiz.ForeColor = System.Drawing.Color.White;
             this.buttonQuiz.Location = new System.Drawing.Point(77, 283);
@@ -85,6 +87,8 @@
             // buttonVisuals
             // 
             this.buttonVisuals.BackColor = System.Drawing.Color.Black;
+            this.buttonVisuals.FlatAppearance.BorderSize = 0;
+            this.buttonVisuals.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonVisuals.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonVisuals.ForeColor = System.Drawing.Color.White;
             this.buttonVisuals.Location = new System.Drawing.Point(77, 191);
@@ -98,6 +102,8 @@
             // buttonIntro
             // 
             this.buttonIntro.BackColor = System.Drawing.Color.Black;
+            this.buttonIntro.FlatAppearance.BorderSize = 0;
+            this.buttonIntro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonIntro.ForeColor = System.Drawing.Color.White;
             this.buttonIntro.Location = new System.Drawing.Point(77, 94);
@@ -109,7 +115,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -120,13 +126,14 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.BackColor = System.Drawing.Color.Silver;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Default;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(564, 9);
+            this.label2.Location = new System.Drawing.Point(566, 34);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(421, 110);
+            this.label2.Size = new System.Drawing.Size(469, 55);
             this.label2.TabIndex = 17;
-            this.label2.Text = "IPO and Flowchart\r\n\r\n";
+            this.label2.Text = "IPOs and Flowcharts\r\n";
             // 
             // richTextBox1
             // 
@@ -136,7 +143,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(290, 490);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox1.Size = new System.Drawing.Size(1132, 108);
+            this.richTextBox1.Size = new System.Drawing.Size(1132, 107);
             this.richTextBox1.TabIndex = 32;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -157,10 +164,10 @@
             this.txbIntro2.BackColor = System.Drawing.SystemColors.Control;
             this.txbIntro2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbIntro2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.txbIntro2.Location = new System.Drawing.Point(290, 237);
+            this.txbIntro2.Location = new System.Drawing.Point(290, 247);
             this.txbIntro2.Name = "txbIntro2";
             this.txbIntro2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txbIntro2.Size = new System.Drawing.Size(1070, 55);
+            this.txbIntro2.Size = new System.Drawing.Size(1070, 34);
             this.txbIntro2.TabIndex = 30;
             this.txbIntro2.Text = "Program development cycle - design program, write code, correct syntax errors, te" +
     "st executable, debug";
@@ -182,7 +189,7 @@
             this.richTextBox2.BackColor = System.Drawing.SystemColors.Control;
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.Location = new System.Drawing.Point(290, 616);
+            this.richTextBox2.Location = new System.Drawing.Point(290, 603);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox2.Size = new System.Drawing.Size(1132, 108);
@@ -194,7 +201,7 @@
             this.richTextBox3.BackColor = System.Drawing.SystemColors.Control;
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox3.Location = new System.Drawing.Point(290, 757);
+            this.richTextBox3.Location = new System.Drawing.Point(290, 744);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox3.Size = new System.Drawing.Size(1132, 172);
@@ -219,6 +226,7 @@
             this.MinimizeBox = false;
             this.Name = "IPOFlowchart";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IPO and Flowchart";
             this.Load += new System.EventHandler(this.IPOFlowchart_Load);
             this.panel1.ResumeLayout(false);
@@ -236,12 +244,12 @@
         private System.Windows.Forms.Button buttonVisuals;
         private System.Windows.Forms.Button buttonIntro;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.RichTextBox txbIntro4;
         private System.Windows.Forms.RichTextBox txbIntro2;
         private System.Windows.Forms.RichTextBox txbIntro1;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.Label label2;
     }
 }

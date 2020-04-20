@@ -94,7 +94,7 @@
             // 
             this.labelAIMS.AutoSize = true;
             this.labelAIMS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.labelAIMS.Location = new System.Drawing.Point(69, 149);
+            this.labelAIMS.Location = new System.Drawing.Point(90, 147);
             this.labelAIMS.Name = "labelAIMS";
             this.labelAIMS.Size = new System.Drawing.Size(1143, 156);
             this.labelAIMS.TabIndex = 4;
@@ -112,7 +112,7 @@
             "CGI",
             "Crowe",
             "Pariveda Solutions"});
-            this.comboBoxCompany.Location = new System.Drawing.Point(527, 337);
+            this.comboBoxCompany.Location = new System.Drawing.Point(549, 339);
             this.comboBoxCompany.Name = "comboBoxCompany";
             this.comboBoxCompany.Size = new System.Drawing.Size(240, 33);
             this.comboBoxCompany.TabIndex = 14;

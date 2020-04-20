@@ -12,8 +12,13 @@ namespace Pariveda_Challenge
 {
     public partial class IntroCompProg : Form
     {
-        public IntroCompProg()
+        Students viewStudent = new Students();
+        ///
+        string studentName;
+        ///
+        public IntroCompProg(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
@@ -28,7 +33,7 @@ namespace Pariveda_Challenge
 
         private void buttonQuiz_Click(object sender, EventArgs e)
         {
-            IntroQuiz showQuiz = new IntroQuiz();
+            IntroQuiz showQuiz = new IntroQuiz(studentName);
             if(showQuiz.ShowDialog() == DialogResult.OK)
             {
 

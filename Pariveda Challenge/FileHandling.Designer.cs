@@ -70,7 +70,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Silver;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(693, 29);
             this.label1.Name = "label1";
@@ -92,7 +92,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.buttonQuiz);
             this.panel1.Controls.Add(this.buttonTerms);
             this.panel1.Controls.Add(this.buttonIntro);
@@ -105,6 +105,8 @@
             // buttonQuiz
             // 
             this.buttonQuiz.BackColor = System.Drawing.Color.Black;
+            this.buttonQuiz.FlatAppearance.BorderSize = 0;
+            this.buttonQuiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonQuiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonQuiz.ForeColor = System.Drawing.Color.White;
             this.buttonQuiz.Location = new System.Drawing.Point(77, 283);
@@ -118,6 +120,8 @@
             // buttonTerms
             // 
             this.buttonTerms.BackColor = System.Drawing.Color.Black;
+            this.buttonTerms.FlatAppearance.BorderSize = 0;
+            this.buttonTerms.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonTerms.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonTerms.ForeColor = System.Drawing.Color.White;
             this.buttonTerms.Location = new System.Drawing.Point(77, 191);
@@ -131,6 +135,8 @@
             // buttonIntro
             // 
             this.buttonIntro.BackColor = System.Drawing.Color.Black;
+            this.buttonIntro.FlatAppearance.BorderSize = 0;
+            this.buttonIntro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonIntro.ForeColor = System.Drawing.Color.White;
             this.buttonIntro.Location = new System.Drawing.Point(77, 94);
@@ -143,7 +149,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -176,6 +182,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "File Handling";
+            this.Load += new System.EventHandler(this.FileHandling_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

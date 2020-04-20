@@ -12,17 +12,30 @@ namespace Pariveda_Challenge
         public string studentCwid;
         public string studentClass;
         public string studentEmail;
+        public string loginTime;
        // public string loginTime;
 
         public static int count;
 
-        public Students(string studentName, string studentCwid, string studentClass, string studentEmail)
+        public Students(string studentName, string studentCwid, string studentClass, string studentEmail, string loginTime)
         { 
             this.studentName = studentName;
             this.studentCwid = studentCwid;
             this.studentClass = studentClass;
             this.studentEmail = studentEmail;
+            this.loginTime = loginTime;
+
            // this.loginTime = loginTime;
+        }
+        public Students(string studentName, string studentCwid, string studentClass, string studentEmail)
+        {
+            this.studentName = studentName;
+            this.studentCwid = studentCwid;
+            this.studentClass = studentClass;
+            this.studentEmail = studentEmail;
+            
+
+            // this.loginTime = loginTime;
         }
         public Students()
         {
@@ -67,17 +80,29 @@ namespace Pariveda_Challenge
         {
             this.studentEmail = studentEmail;
         }
+        public void SetLoginTime(string loginTime)
+        {
+            DateTime localDate = DateTime.Now;
+            //localDate.ToShortDateString();
+            this.loginTime = localDate.ToShortTimeString();
+            
+        }
+        public string GetLoginTime()
+        {
+            return loginTime;
+        }
+        
 
 
         public string ToFile()
         {
 
-            DateTime localDate = DateTime.Now;
-            //localDate.ToShortDateString();
-            localDate.ToShortTimeString();
+            //DateTime localDate = DateTime.Now;
+            ////localDate.ToShortDateString();
+            //localDate.ToShortTimeString();
 
            
-            return studentName + '-' + studentCwid + '-' + studentClass + '-' + studentEmail; 
+            return studentName + '-' + studentCwid + '-' + studentClass + '-' + studentEmail + "-" + loginTime; 
         }
 
         public static int GetCount()
@@ -90,6 +115,7 @@ namespace Pariveda_Challenge
         {
             Students.count = count;
         }
+
         public static void IncCount()
         {
             Students.count++;

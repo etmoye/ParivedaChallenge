@@ -13,9 +13,22 @@ namespace Pariveda_Challenge
     public partial class Form1 : Form
     {
         Students viewStudent = new Students();
-
+        ///
+        string studentName;
+        ///
         public Form1()
         {
+            //
+           // this.studentName = studentName; 
+            //
+            InitializeComponent();
+        }
+
+        public Form1(string studentName)
+        {
+            //
+             this.studentName = studentName; 
+            //
             InitializeComponent();
         }
 
@@ -53,6 +66,7 @@ namespace Pariveda_Challenge
                 }
             }
             button1.Hide();
+            pictureBox2.Visible = false;
             showProfessor(prof);
         }
 
@@ -61,24 +75,13 @@ namespace Pariveda_Challenge
             if(prof == 1)
             {
                 showJeff1.BringToFront();
-                //pictureJeff.Visible = true;
-                //picture1.Visible = true;
-                //picture2.Visible = true;
-                //picture3.Visible = true;
-                //picture4.Visible = true;
-                //picture5.Visible = true;
-                //richTextBoxJeff1.Visible = true;
-                //richTextBoxJeff2.Visible = true;
-                //richTextBoxJeff3.Visible = true;
-                //richTextBoxJeff4.Visible = true;
-                //richTextBoxJeff5.Visible = true;
 
 
             }
             if(prof == 2)
             {
                 showDanish1.BringToFront();
-                //pictureDanish.Visible = true;
+                ;
 
             }
         }
@@ -90,7 +93,7 @@ namespace Pariveda_Challenge
 
         private void buttonTopics_Click(object sender, EventArgs e)
         {
-            Topics showTopics = new Topics();
+            Topics showTopics = new Topics(studentName);
             if (showTopics.ShowDialog() == DialogResult.OK)
             {
 
@@ -111,15 +114,7 @@ namespace Pariveda_Challenge
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            CrimsonMailLogin showEmail = new CrimsonMailLogin();
-            if(showEmail.ShowDialog() == DialogResult.OK)
-            {
 
-            }
-
-        }
 
         private void showJeff1_Load(object sender, EventArgs e)
         {
@@ -129,11 +124,13 @@ namespace Pariveda_Challenge
         private void button2_Click_1(object sender, EventArgs e)
         {
             //Students[] viewStudents = new Students[100];
+            
             StudentLogin showStudentProfile = new StudentLogin(viewStudent);
             if (showStudentProfile.ShowDialog() == DialogResult.OK)
             {
 
             }
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -143,6 +140,16 @@ namespace Pariveda_Challenge
             {
 
             }
+        }
+
+        private void buttonPractice_Click(object sender, EventArgs e)
+        {
+            Practice showPractice = new Practice();
+            if (showPractice.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+
         }
     }
 }

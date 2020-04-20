@@ -46,9 +46,11 @@
             // 
             this.txbIntro4.BackColor = System.Drawing.SystemColors.Control;
             this.txbIntro4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbIntro4.Cursor = System.Windows.Forms.Cursors.Default;
             this.txbIntro4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbIntro4.Location = new System.Drawing.Point(308, 519);
             this.txbIntro4.Name = "txbIntro4";
+            this.txbIntro4.ReadOnly = true;
             this.txbIntro4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.txbIntro4.Size = new System.Drawing.Size(1070, 137);
             this.txbIntro4.TabIndex = 19;
@@ -58,9 +60,11 @@
             // 
             this.txbIntro2.BackColor = System.Drawing.SystemColors.Control;
             this.txbIntro2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbIntro2.Cursor = System.Windows.Forms.Cursors.Default;
             this.txbIntro2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.txbIntro2.Location = new System.Drawing.Point(308, 373);
             this.txbIntro2.Name = "txbIntro2";
+            this.txbIntro2.ReadOnly = true;
             this.txbIntro2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.txbIntro2.Size = new System.Drawing.Size(1070, 105);
             this.txbIntro2.TabIndex = 17;
@@ -69,7 +73,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Silver;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(514, 35);
             this.label1.Name = "label1";
@@ -80,6 +85,8 @@
             // buttonTerms
             // 
             this.buttonTerms.BackColor = System.Drawing.Color.Black;
+            this.buttonTerms.FlatAppearance.BorderSize = 0;
+            this.buttonTerms.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonTerms.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonTerms.ForeColor = System.Drawing.Color.White;
             this.buttonTerms.Location = new System.Drawing.Point(77, 191);
@@ -93,6 +100,8 @@
             // buttonQuiz
             // 
             this.buttonQuiz.BackColor = System.Drawing.Color.Black;
+            this.buttonQuiz.FlatAppearance.BorderSize = 0;
+            this.buttonQuiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonQuiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonQuiz.ForeColor = System.Drawing.Color.White;
             this.buttonQuiz.Location = new System.Drawing.Point(77, 283);
@@ -107,9 +116,11 @@
             // 
             this.txbIntro1.BackColor = System.Drawing.SystemColors.Control;
             this.txbIntro1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbIntro1.Cursor = System.Windows.Forms.Cursors.Default;
             this.txbIntro1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.txbIntro1.Location = new System.Drawing.Point(308, 165);
             this.txbIntro1.Name = "txbIntro1";
+            this.txbIntro1.ReadOnly = true;
             this.txbIntro1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.txbIntro1.Size = new System.Drawing.Size(1070, 164);
             this.txbIntro1.TabIndex = 12;
@@ -118,6 +129,8 @@
             // buttonIntro
             // 
             this.buttonIntro.BackColor = System.Drawing.Color.Black;
+            this.buttonIntro.FlatAppearance.BorderSize = 0;
+            this.buttonIntro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonIntro.ForeColor = System.Drawing.Color.White;
             this.buttonIntro.Location = new System.Drawing.Point(77, 94);
@@ -129,10 +142,11 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.buttonQuiz);
             this.panel1.Controls.Add(this.buttonTerms);
             this.panel1.Controls.Add(this.buttonIntro);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 123);
             this.panel1.Name = "panel1";
@@ -141,7 +155,8 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
@@ -152,9 +167,11 @@
             // 
             this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(308, 689);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox1.Size = new System.Drawing.Size(1070, 137);
             this.richTextBox1.TabIndex = 22;

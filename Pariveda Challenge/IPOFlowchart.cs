@@ -12,8 +12,12 @@ namespace Pariveda_Challenge
 {
     public partial class IPOFlowchart : Form
     {
-        public IPOFlowchart()
+        Students viewStudent = new Students();
+       
+        string studentName;
+        public IPOFlowchart(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
@@ -38,7 +42,7 @@ namespace Pariveda_Challenge
 
         private void buttonQuiz_Click(object sender, EventArgs e)
         {
-            IPOFlowchartQuiz showQuiz = new IPOFlowchartQuiz();
+            IPOFlowchartQuiz showQuiz = new IPOFlowchartQuiz(studentName);
             if (showQuiz.ShowDialog() == DialogResult.OK)
             {
 

@@ -40,18 +40,20 @@
             this.button2 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.profSelector1 = new Pariveda_Challenge.ProfSelector();
             this.showJeff1 = new Pariveda_Challenge.showJeff();
             this.showDanish1 = new Pariveda_Challenge.showDanish();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(573, 63);
@@ -62,7 +64,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.buttonPD);
             this.panel1.Controls.Add(this.button3);
@@ -70,14 +72,14 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Location = new System.Drawing.Point(-6, -2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(346, 905);
+            this.panel1.Size = new System.Drawing.Size(350, 905);
             this.panel1.TabIndex = 4;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(80, 38);
+            this.pictureBox1.Location = new System.Drawing.Point(63, 49);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(218, 198);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -86,10 +88,10 @@
             // 
             // buttonPD
             // 
-            this.buttonPD.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonPD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonPD.FlatAppearance.BorderSize = 0;
-            this.buttonPD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonPD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.buttonPD.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonPD.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPD.ForeColor = System.Drawing.Color.Black;
             this.buttonPD.Location = new System.Drawing.Point(47, 734);
             this.buttonPD.Name = "buttonPD";
@@ -101,10 +103,10 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.Control;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(47, 580);
             this.button3.Name = "button3";
@@ -112,14 +114,14 @@
             this.button3.TabIndex = 1;
             this.button3.Text = "Practice";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.buttonPractice_Click);
             // 
             // buttonTopics
             // 
-            this.buttonTopics.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonTopics.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonTopics.FlatAppearance.BorderSize = 0;
-            this.buttonTopics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonTopics.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.buttonTopics.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonTopics.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTopics.ForeColor = System.Drawing.Color.Black;
             this.buttonTopics.Location = new System.Drawing.Point(47, 417);
             this.buttonTopics.Name = "buttonTopics";
@@ -131,10 +133,10 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
@@ -143,29 +145,40 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1367, 12);
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(1306, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 55);
+            this.button4.Size = new System.Drawing.Size(133, 55);
             this.button4.TabIndex = 23;
             this.button4.Text = "Professor";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1245, 12);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(1160, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 55);
+            this.button2.Size = new System.Drawing.Size(140, 55);
             this.button2.TabIndex = 22;
             this.button2.Text = "Student";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Arial", 14F);
-            this.richTextBox1.Location = new System.Drawing.Point(360, 197);
+            this.richTextBox1.Location = new System.Drawing.Point(375, 197);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(1115, 180);
@@ -175,15 +188,26 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(792, 563);
+            this.button1.Location = new System.Drawing.Point(783, 415);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(259, 127);
             this.button1.TabIndex = 1;
             this.button1.Text = "Professor Selector";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(330, 160);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1316, 743);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
             // 
             // profSelector1
             // 
@@ -214,13 +238,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1634, 888);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.profSelector1);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.profSelector1);
             this.Controls.Add(this.showJeff1);
             this.Controls.Add(this.showDanish1);
+            this.Controls.Add(this.panel2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -232,6 +257,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -249,9 +275,10 @@
         private System.Windows.Forms.Button button1;
         private showJeff showJeff1;
         private showDanish showDanish1;
-        private ProfSelector profSelector1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private ProfSelector profSelector1;
     }
 }
 

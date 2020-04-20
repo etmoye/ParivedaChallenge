@@ -51,22 +51,22 @@
             // richTextBoxJeff4
             // 
             this.richTextBoxJeff4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBoxJeff4.Location = new System.Drawing.Point(817, 95);
+            this.richTextBoxJeff4.Location = new System.Drawing.Point(832, 96);
             this.richTextBoxJeff4.Name = "richTextBoxJeff4";
             this.richTextBoxJeff4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBoxJeff4.Size = new System.Drawing.Size(104, 106);
+            this.richTextBoxJeff4.Size = new System.Drawing.Size(132, 91);
             this.richTextBoxJeff4.TabIndex = 27;
-            this.richTextBoxJeff4.Text = "How do we eat an\nelephant? One bite \nat a time!";
+            this.richTextBoxJeff4.Text = "How do we eat an\nelephant? \nOne bite at a time!";
             // 
             // richTextBoxJeff3
             // 
             this.richTextBoxJeff3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBoxJeff3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxJeff3.ForeColor = System.Drawing.Color.Black;
-            this.richTextBoxJeff3.Location = new System.Drawing.Point(506, 64);
+            this.richTextBoxJeff3.Location = new System.Drawing.Point(485, 55);
             this.richTextBoxJeff3.Name = "richTextBoxJeff3";
             this.richTextBoxJeff3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBoxJeff3.Size = new System.Drawing.Size(127, 79);
+            this.richTextBoxJeff3.Size = new System.Drawing.Size(138, 76);
             this.richTextBoxJeff3.TabIndex = 28;
             this.richTextBoxJeff3.Text = "You don\'t learn to play piano by watching someone else play the piano";
             // 
@@ -104,7 +104,7 @@
             // pictureJeff
             // 
             this.pictureJeff.Image = global::Pariveda_Challenge.Properties.Resources.jeff_lucas_pariveda;
-            this.pictureJeff.Location = new System.Drawing.Point(342, 218);
+            this.pictureJeff.Location = new System.Drawing.Point(357, 193);
             this.pictureJeff.Name = "pictureJeff";
             this.pictureJeff.Size = new System.Drawing.Size(419, 300);
             this.pictureJeff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -134,9 +134,9 @@
             // picture3
             // 
             this.picture3.Image = ((System.Drawing.Image)(resources.GetObject("picture3.Image")));
-            this.picture3.Location = new System.Drawing.Point(460, 13);
+            this.picture3.Location = new System.Drawing.Point(418, 3);
             this.picture3.Name = "picture3";
-            this.picture3.Size = new System.Drawing.Size(226, 199);
+            this.picture3.Size = new System.Drawing.Size(274, 199);
             this.picture3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture3.TabIndex = 23;
             this.picture3.TabStop = false;
@@ -144,7 +144,7 @@
             // picture4
             // 
             this.picture4.Image = ((System.Drawing.Image)(resources.GetObject("picture4.Image")));
-            this.picture4.Location = new System.Drawing.Point(751, 55);
+            this.picture4.Location = new System.Drawing.Point(782, 45);
             this.picture4.Name = "picture4";
             this.picture4.Size = new System.Drawing.Size(235, 199);
             this.picture4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

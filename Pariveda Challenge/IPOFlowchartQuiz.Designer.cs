@@ -302,7 +302,9 @@
             this.MinimizeBox = false;
             this.Name = "IPOFlowchartQuiz";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IPO and Flowchart Quiz";
+            this.Load += new System.EventHandler(this.IPOFlowchartQuiz_Load);
             this.ResumeLayout(false);
 
         }

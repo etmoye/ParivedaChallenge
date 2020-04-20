@@ -52,8 +52,9 @@
             this.txbIntro1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.txbIntro1.Location = new System.Drawing.Point(291, 148);
             this.txbIntro1.Name = "txbIntro1";
+            this.txbIntro1.ReadOnly = true;
             this.txbIntro1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txbIntro1.Size = new System.Drawing.Size(1070, 77);
+            this.txbIntro1.Size = new System.Drawing.Size(1070, 92);
             this.txbIntro1.TabIndex = 1;
             this.txbIntro1.Text = resources.GetString("txbIntro1.Text");
             this.txbIntro1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -61,8 +62,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Silver;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(527, 33);
+            this.label1.Location = new System.Drawing.Point(556, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(524, 55);
             this.label1.TabIndex = 5;
@@ -75,8 +77,9 @@
             this.txbIntro2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.txbIntro2.Location = new System.Drawing.Point(291, 257);
             this.txbIntro2.Name = "txbIntro2";
+            this.txbIntro2.ReadOnly = true;
             this.txbIntro2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txbIntro2.Size = new System.Drawing.Size(1070, 137);
+            this.txbIntro2.Size = new System.Drawing.Size(1070, 153);
             this.txbIntro2.TabIndex = 6;
             this.txbIntro2.Text = resources.GetString("txbIntro2.Text");
             // 
@@ -87,8 +90,9 @@
             this.txbIntro3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.txbIntro3.Location = new System.Drawing.Point(291, 426);
             this.txbIntro3.Name = "txbIntro3";
+            this.txbIntro3.ReadOnly = true;
             this.txbIntro3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txbIntro3.Size = new System.Drawing.Size(1070, 71);
+            this.txbIntro3.Size = new System.Drawing.Size(1070, 83);
             this.txbIntro3.TabIndex = 7;
             this.txbIntro3.Text = "If you plan to perform a process more than once, create the process in a method. " +
     "This will all you to call the instance of the process rather than recreating the" +
@@ -101,8 +105,9 @@
             this.txbIntro4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbIntro4.Location = new System.Drawing.Point(291, 529);
             this.txbIntro4.Name = "txbIntro4";
+            this.txbIntro4.ReadOnly = true;
             this.txbIntro4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txbIntro4.Size = new System.Drawing.Size(1070, 137);
+            this.txbIntro4.Size = new System.Drawing.Size(1070, 148);
             this.txbIntro4.TabIndex = 8;
             this.txbIntro4.Text = resources.GetString("txbIntro4.Text");
             // 
@@ -113,6 +118,7 @@
             this.txbIntro5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbIntro5.Location = new System.Drawing.Point(291, 698);
             this.txbIntro5.Name = "txbIntro5";
+            this.txbIntro5.ReadOnly = true;
             this.txbIntro5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.txbIntro5.Size = new System.Drawing.Size(1070, 136);
             this.txbIntro5.TabIndex = 9;
@@ -120,7 +126,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -130,7 +136,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.buttonQuiz);
             this.panel1.Controls.Add(this.buttonTerms);
             this.panel1.Controls.Add(this.buttonIntro);
@@ -143,6 +149,8 @@
             // buttonQuiz
             // 
             this.buttonQuiz.BackColor = System.Drawing.Color.Black;
+            this.buttonQuiz.FlatAppearance.BorderSize = 0;
+            this.buttonQuiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonQuiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonQuiz.ForeColor = System.Drawing.Color.White;
             this.buttonQuiz.Location = new System.Drawing.Point(77, 283);
@@ -156,6 +164,8 @@
             // buttonTerms
             // 
             this.buttonTerms.BackColor = System.Drawing.Color.Black;
+            this.buttonTerms.FlatAppearance.BorderSize = 0;
+            this.buttonTerms.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonTerms.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonTerms.ForeColor = System.Drawing.Color.White;
             this.buttonTerms.Location = new System.Drawing.Point(77, 191);
@@ -169,6 +179,8 @@
             // buttonIntro
             // 
             this.buttonIntro.BackColor = System.Drawing.Color.Black;
+            this.buttonIntro.FlatAppearance.BorderSize = 0;
+            this.buttonIntro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonIntro.ForeColor = System.Drawing.Color.White;
             this.buttonIntro.Location = new System.Drawing.Point(77, 94);
@@ -181,7 +193,7 @@
             // 
             // methodsCode1
             // 
-            this.methodsCode1.Location = new System.Drawing.Point(267, 123);
+            this.methodsCode1.Location = new System.Drawing.Point(265, 123);
             this.methodsCode1.Name = "methodsCode1";
             this.methodsCode1.Size = new System.Drawing.Size(1263, 834);
             this.methodsCode1.TabIndex = 24;

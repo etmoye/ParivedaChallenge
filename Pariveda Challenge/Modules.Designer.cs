@@ -48,7 +48,7 @@
             this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(308, 645);
+            this.richTextBox1.Location = new System.Drawing.Point(308, 668);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox1.Size = new System.Drawing.Size(1070, 137);
@@ -60,10 +60,10 @@
             this.txbIntro4.BackColor = System.Drawing.SystemColors.Control;
             this.txbIntro4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbIntro4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbIntro4.Location = new System.Drawing.Point(308, 502);
+            this.txbIntro4.Location = new System.Drawing.Point(308, 510);
             this.txbIntro4.Name = "txbIntro4";
             this.txbIntro4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txbIntro4.Size = new System.Drawing.Size(1070, 137);
+            this.txbIntro4.Size = new System.Drawing.Size(1070, 120);
             this.txbIntro4.TabIndex = 26;
             this.txbIntro4.Text = resources.GetString("txbIntro4.Text");
             // 
@@ -72,19 +72,19 @@
             this.txbIntro2.BackColor = System.Drawing.SystemColors.Control;
             this.txbIntro2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbIntro2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.txbIntro2.Location = new System.Drawing.Point(308, 356);
+            this.txbIntro2.Location = new System.Drawing.Point(308, 350);
             this.txbIntro2.Name = "txbIntro2";
             this.txbIntro2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txbIntro2.Size = new System.Drawing.Size(1070, 105);
+            this.txbIntro2.Size = new System.Drawing.Size(1091, 122);
             this.txbIntro2.TabIndex = 25;
             this.txbIntro2.Text = resources.GetString("txbIntro2.Text");
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Silver;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(658, 36);
+            this.label1.Location = new System.Drawing.Point(694, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(206, 55);
             this.label1.TabIndex = 24;
@@ -98,13 +98,13 @@
             this.txbIntro1.Location = new System.Drawing.Point(308, 165);
             this.txbIntro1.Name = "txbIntro1";
             this.txbIntro1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txbIntro1.Size = new System.Drawing.Size(1070, 164);
+            this.txbIntro1.Size = new System.Drawing.Size(1070, 147);
             this.txbIntro1.TabIndex = 23;
             this.txbIntro1.Text = resources.GetString("txbIntro1.Text");
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.buttonQuiz);
             this.panel1.Controls.Add(this.buttonTerms);
             this.panel1.Controls.Add(this.buttonIntro);
@@ -117,6 +117,8 @@
             // buttonQuiz
             // 
             this.buttonQuiz.BackColor = System.Drawing.Color.Black;
+            this.buttonQuiz.FlatAppearance.BorderSize = 0;
+            this.buttonQuiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonQuiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonQuiz.ForeColor = System.Drawing.Color.White;
             this.buttonQuiz.Location = new System.Drawing.Point(77, 283);
@@ -130,6 +132,8 @@
             // buttonTerms
             // 
             this.buttonTerms.BackColor = System.Drawing.Color.Black;
+            this.buttonTerms.FlatAppearance.BorderSize = 0;
+            this.buttonTerms.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonTerms.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonTerms.ForeColor = System.Drawing.Color.White;
             this.buttonTerms.Location = new System.Drawing.Point(77, 191);
@@ -143,6 +147,8 @@
             // buttonIntro
             // 
             this.buttonIntro.BackColor = System.Drawing.Color.Black;
+            this.buttonIntro.FlatAppearance.BorderSize = 0;
+            this.buttonIntro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.buttonIntro.ForeColor = System.Drawing.Color.White;
             this.buttonIntro.Location = new System.Drawing.Point(77, 94);
@@ -154,7 +160,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -177,7 +183,9 @@
             this.MinimizeBox = false;
             this.Name = "Modules";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modules";
+            this.Load += new System.EventHandler(this.Modules_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

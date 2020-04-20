@@ -12,8 +12,12 @@ namespace Pariveda_Challenge
 {
     public partial class Structures : Form
     {
-        public Structures()
+        Students viewStudent = new Students();
+        string studentName;
+
+        public Structures(string studentName)
         {
+            this.studentName = studentName;
             InitializeComponent();
         }
 
@@ -57,7 +61,7 @@ namespace Pariveda_Challenge
 
         private void buttonQuiz_Click(object sender, EventArgs e)
         {
-            StructuresQuiz showQuiz = new StructuresQuiz();
+            StructuresQuiz showQuiz = new StructuresQuiz(studentName);
             if (showQuiz.ShowDialog() == DialogResult.OK)
             {
 

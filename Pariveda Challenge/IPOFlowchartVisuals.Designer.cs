@@ -97,6 +97,7 @@
             this.MinimizeBox = false;
             this.Name = "IPOFlowchartVisuals";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IPO and Flowchart Visuals";
             this.Load += new System.EventHandler(this.IPOFlowchartVisuals_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIPO)).EndInit();

@@ -49,7 +49,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(871, 895);
+            this.button1.Location = new System.Drawing.Point(854, 908);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(202, 69);
             this.button1.TabIndex = 45;
@@ -173,7 +173,7 @@
             this.richTextBox4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.richTextBox4.Size = new System.Drawing.Size(981, 119);
             this.richTextBox4.TabIndex = 46;
-            this.richTextBox4.Text = "5. A(n) ______ is te part of a program in which a variable may be accessed.\n\n\n";
+            this.richTextBox4.Text = "5. A(n) ______ is the part of a program in which a variable may be accessed.\n\n\n";
             this.richTextBox4.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
             // 
             // comboBox4
@@ -321,6 +321,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modules Quiz";
+            this.Load += new System.EventHandler(this.ModulesQuiz_Load);
             this.ResumeLayout(false);
 
         }
